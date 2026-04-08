@@ -69,11 +69,18 @@ Las guias son el conocimiento experto. Contienen:
 
 ### Paso 4: Recoger la informacion del alumno
 
-Cada modulo requiere informacion del alumno a traves de fichas rellenables o cuestionarios adaptativos:
+**OBLIGATORIO**: Nunca preguntes al alumno directamente en el chat. Siempre usa las herramientas del MCP para el cuestionario.
 
-Si el modulo tiene fases con cuestionarios, usar las herramientas `start-phase-questionnaire` y `answer-question` del servidor MCP para ejecutar cuestionarios adaptativos con interfaz interactiva.
+Llamar INMEDIATAMENTE a `start-phase-questionnaire` del servidor MCP leadmatch-course con:
+- `email`: el email verificado del alumno
+- `moduleNumber`: el numero del modulo
+- `phaseNumber`: 1 (primera fase)
 
-Para M4 en adelante, tambien necesitar los outputs de modulos anteriores. Buscarlos en la carpeta "Negocio desde 0 con Lead Match" del Notion del alumno.
+Esta herramienta lanza la interfaz interactiva de preguntas. No hagas las preguntas tu mismo en texto. No improvises preguntas. No pidas informacion al alumno antes de llamar a `start-phase-questionnaire`.
+
+Cuando el alumno responda cada pregunta, llamar a `answer-question` con la respuesta. Repetir hasta que el cuestionario este completo (`isComplete: true`).
+
+Para M4 en adelante, tambien recuperar los outputs de modulos anteriores desde la carpeta "Negocio desde 0 con Lead Match" del Notion del alumno.
 
 **Nota sobre acumulacion**: A partir del M3, el Brand Book integra M1 + M2 y se convierte en el unico input necesario para modulos posteriores.
 
