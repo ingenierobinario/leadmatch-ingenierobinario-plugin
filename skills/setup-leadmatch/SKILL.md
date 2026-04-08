@@ -2,7 +2,7 @@
 name: setup-leadmatch
 description: >
   Configurar el entorno del alumno para el curso LeadMatch. Usar cuando el alumno dice
-  "configurar LeadMatch", "setup inicial", "empezar el curso", "preparar mi entorno",
+  "setup-leadmatch", "configurar LeadMatch", "setup inicial", "empezar el curso", "preparar mi entorno",
   o cuando es la primera vez que usa el plugin.
 ---
 
