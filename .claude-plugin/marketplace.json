@@ -1,0 +1,13 @@
+{
+  "name": "LeadMatch — Ingeniero Binario",
+  "description": "Plugins del curso 'Construye desde 0 tu Negocio Digital' de LeadMatch por Ingeniero Binario",
+  "plugins": [
+    {
+      "id": "leadmatch-ingenierobinario",
+      "name": "LeadMatch Course",
+      "description": "Conecta con el servidor MCP del curso para ejecutar módulos, cuestionarios adaptativos y generar documentos estratégicos aplicados al caso del alumno.",
+      "version": "1.0.0",
+      "author": "Ingeniero Binario"
+    }
+  ]
+}
