@@ -26,44 +26,34 @@ No continuar ni un paso mas sin este conector activo. No improvisar alternativas
 
 ## Paso 1: Cuentas necesarias
 
-Preguntar al alumno, una a una, si ya tiene cuenta en cada plataforma. Para las que no tenga, darle el link y esperar a que confirme que la ha creado antes de pasar a la siguiente. No avanzar al siguiente paso hasta tener todas confirmadas.
+Mostrar al alumno la lista completa de plataformas que va a necesitar durante el curso, con los links de registro. Preguntarle de una sola vez cuales le faltan por crear. No preguntar una a una.
 
 Las plataformas son:
 
-1. **Gmail** — necesaria para Google Drive y otras integraciones
-   - Link: https://accounts.google.com/signup
+1. **Gmail** — necesaria para Google Drive y otras integraciones → https://accounts.google.com/signup
+2. **Notion** — donde se guardan todos los documentos del curso → https://www.notion.so/signup
+3. **Canva** — para crear las piezas visuales del negocio → https://www.canva.com/signup
+4. **Systeme.io** — plataforma de ventas y automatizacion → https://systeme.io/es?sa=sa026826405007614a639b86359cfcb12d31dae20d
+5. **Siteground** — hosting web del negocio → https://www.siteground.com/index.htm?afcode=77aff42ee9d1a63e15c2a7f866c25f0e
+6. **Vimeo** — para alojar videos del negocio → https://vimeo.com/join
 
-2. **Notion** — donde se guardan todos los documentos del curso
-   - Link: https://www.notion.so/signup
-
-3. **Canva** — para crear las piezas visuales del negocio
-   - Link: https://www.canva.com/signup
-
-4. **Systeme.io** — plataforma de ventas y automatizacion del negocio
-   - Link afiliado: https://systeme.io/es?sa=sa026826405007614a639b86359cfcb12d31dae20d
-
-5. **Siteground** — hosting web del negocio
-   - Link afiliado: https://www.siteground.com/index.htm?afcode=77aff42ee9d1a63e15c2a7f866c25f0e
-
-6. **Vimeo** — para alojar videos del negocio
-   - Link: https://vimeo.com/join
+Preguntar: "¿Tienes cuenta en todas? Dime cuales te faltan y las creas ahora."
+Esperar confirmacion de que tiene todas antes de continuar.
 
 ---
 
 ## Paso 2: Conectores MCP
 
-Guiar al alumno para que configure los conectores uno a uno en Cowork. Para cada uno, dar las instrucciones y esperar confirmacion antes de pasar al siguiente.
+Explicar al alumno que necesita activar 3 conectores en Cowork. Dar las instrucciones de todos juntos:
 
-1. **Notion**
-   > "Ve a **Conectores** en el panel lateral de Cowork → busca **Notion** → conecta con tu cuenta. Confirma cuando este activo."
+> "Ve a **Conectores** en el panel lateral de Cowork y conecta estos tres:
+> 1. **Notion** — conecta con tu cuenta
+> 2. **Google Drive** — conecta con tu cuenta Gmail
+> 3. **Canva** — conecta con tu cuenta
+>
+> Confirma cuando los tres esten activos."
 
-2. **Google Drive**
-   > "En **Conectores**, busca **Google Drive** → conecta con tu cuenta Gmail. Confirma cuando este activo."
-
-3. **Canva**
-   > "En **Conectores**, busca **Canva** → conecta con tu cuenta. Confirma cuando este activo."
-
-No continuar al Paso 3 hasta que los tres conectores esten confirmados.
+No continuar al Paso 3 hasta que confirme que los tres estan activos.
 
 ---
 
