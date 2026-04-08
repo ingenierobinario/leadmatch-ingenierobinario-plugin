@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "leadmatch-course": {
+      "type": "http",
+      "url": "https://leadmatch-mcp.ingenierobinario.com/mcp"
+    }
+  }
+}
