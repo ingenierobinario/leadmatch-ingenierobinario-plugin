@@ -12,7 +12,7 @@ Guiar al alumno en la configuracion inicial de su entorno de trabajo para el cur
 
 ## Contexto del curso
 
-Este es un curso de 6 modulos donde el alumno construye su negocio digital desde cero. El flujo de cada modulo es:
+Este es un curso de 7 modulos donde el alumno construye su negocio digital desde cero. El flujo de cada modulo es:
 1. El alumno proporciona su codigo de modulo y email
 2. El servidor verifica el acceso (codigo valido + email en Systeme.io)
 3. Se leen las instrucciones del modulo desde Notion
