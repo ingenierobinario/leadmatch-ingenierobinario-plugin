@@ -18,7 +18,12 @@ Antes de hacer CUALQUIER cosa, verificar que el servidor MCP `leadmatch-course` 
 
 Si `empezar-modulo` NO esta disponible, detener el setup completamente y decir al alumno:
 
-> "Para continuar necesitas tener el conector **leadmatch-course** activo en esta sesion. Ve a **Conectores** en el panel lateral de Cowork, busca **leadmatch-course** y actívalo. Cuando este listo, vuelve a escribir **setup-leadmatch**."
+> "Para continuar necesitas activar el conector del curso. Es un solo clic que solo tienes que hacer una vez:
+>
+> 1. Ve a **Personalizar** (icono de persona en el panel lateral)
+> 2. Dentro del plugin **Leadmatch ingenierobinario**, haz clic en **Conectores**
+> 3. Veras **leadmatch-course** con un boton **Instalar** — haz clic
+> 4. Cuando este instalado, vuelve aqui y escribe **setup-leadmatch**"
 
 No continuar ni un paso mas sin este conector activo. No improvisar alternativas.
 
