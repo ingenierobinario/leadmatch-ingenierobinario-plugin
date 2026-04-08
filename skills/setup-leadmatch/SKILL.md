@@ -38,7 +38,9 @@ Una vez verificado el acceso, leer la pagina del inventario del Setup en Notion 
 
 **OBLIGATORIO**: Crear en el Notion del alumno una pagina llamada exactamente **"Negocio desde 0 con Lead Match"**.
 
-Buscar primero el nombre EXACTO. Si existe con ese nombre exacto, no duplicarla. Si existe una pagina con nombre parecido pero diferente (ej: "Negocio desde 0 con Lead Match - old", "Negocio desde 0 con LeadMatch", etc.), ignorarla y crear igualmente la carpeta con el nombre exacto correcto. No asumir que una pagina de nombre similar es la carpeta del curso.
+- Crearla como pagina raiz en el workspace privado del alumno, al mismo nivel que el resto de sus paginas principales. No aninarla dentro de ninguna otra pagina.
+- Buscar primero el nombre EXACTO. Si existe con ese nombre exacto, no duplicarla.
+- Si existe una pagina con nombre parecido pero diferente (ej: "Negocio desde 0 con Lead Match - old", "Negocio desde 0 con LeadMatch", etc.), ignorarla y crear igualmente la pagina con el nombre exacto correcto. No asumir que una pagina de nombre similar es la carpeta del curso.
 
 Usar el MCP de Notion para crearla. Si falla, informar al alumno y pedirle que la cree manualmente — no continuar sin confirmar que existe.
 
