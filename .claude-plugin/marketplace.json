@@ -1,17 +1,22 @@
 {
-  "schema_version": "1",
-  "name": "LeadMatch — Ingeniero Binario",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "leadmatch-ingenierobinario",
+  "version": "1.0.0",
   "description": "Plugins del curso Construye desde 0 tu Negocio Digital de LeadMatch por Ingeniero Binario",
-  "icon": "logo.svg",
+  "owner": {
+    "name": "Ingeniero Binario",
+    "email": "ingenierobinario.servicio@gmail.com"
+  },
   "plugins": [
     {
-      "id": "leadmatch-ingenierobinario",
-      "name": "LeadMatch Course",
+      "name": "leadmatch-ingenierobinario",
       "description": "Conecta con el servidor MCP del curso para ejecutar modulos, cuestionarios adaptativos y generar documentos estrategicos aplicados al caso del alumno.",
       "version": "1.0.0",
-      "author": "Ingeniero Binario",
-      "icon": "logo.svg",
-      "path": "."
+      "author": {
+        "name": "Ingeniero Binario"
+      },
+      "source": ".",
+      "category": "learning"
     }
   ]
 }
