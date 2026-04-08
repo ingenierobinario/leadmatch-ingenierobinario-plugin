@@ -30,7 +30,7 @@ Esa pagina contiene la presentacion completa del curso. Transmitirla al alumno t
 
 **OBLIGATORIO**: Crear en el Notion del alumno una pagina llamada exactamente **"Negocio desde 0 con Lead Match"**. Esta carpeta es el repositorio central de todos los documentos del curso.
 
-Usar el MCP de Notion para crearla. Si ya existe, no duplicarla.
+Usar el MCP de Notion para crearla. Buscar primero el nombre EXACTO "Negocio desde 0 con Lead Match". Si existe con ese nombre exacto, no duplicarla. Si existe una pagina con nombre parecido pero diferente (ej: "Negocio desde 0 con Lead Match - old", "Negocio desde 0 con LeadMatch", etc.), ignorarla y crear igualmente la carpeta con el nombre exacto correcto. No asumir que una pagina de nombre similar es la carpeta del curso.
 
 ### 4. Confirmar al alumno
 
