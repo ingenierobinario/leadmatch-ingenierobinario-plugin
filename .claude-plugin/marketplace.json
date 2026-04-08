@@ -1,7 +1,5 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "leadmatch-ingenierobinario",
-  "version": "1.0.0",
   "description": "Plugins del curso Construye desde 0 tu Negocio Digital de LeadMatch por Ingeniero Binario",
   "owner": {
     "name": "Ingeniero Binario",
@@ -15,8 +13,9 @@
       "author": {
         "name": "Ingeniero Binario"
       },
-      "source": ".",
-      "category": "learning"
+      "source": "./",
+      "category": "learning",
+      "keywords": ["leadmatch", "negocio-digital", "estrategia", "marca", "funnel", "curso"]
     }
   ]
 }
