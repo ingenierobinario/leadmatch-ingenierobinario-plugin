@@ -60,6 +60,8 @@ Usar la herramienta `empezar-modulo` del servidor MCP leadmatch-course con el co
 | M5 | Automatizacion | Estrategia Activacion + Analisis Web |
 | M6 | Escalado | Informe Diagnostico y Optimizacion |
 
+El curso tiene 6 modulos (M1 a M6). M0 es el setup inicial.
+
 ## Flujo de ejecucion
 
 ### Paso 1: Verificar acceso
