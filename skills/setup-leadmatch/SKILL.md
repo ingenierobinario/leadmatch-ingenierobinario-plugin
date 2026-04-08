@@ -24,7 +24,17 @@ No continuar ni un paso mas sin este conector activo. No improvisar alternativas
 
 ---
 
-## Paso 1: Cuentas necesarias
+## Paso 1: Verificar acceso al curso
+
+Este es SIEMPRE el primer paso. Pedir al alumno su codigo de modulo de Setup y su email. Llamar a `empezar-modulo` del servidor MCP leadmatch-course para verificar:
+- Codigo valido
+- Email con acceso activo en Systeme.io
+
+Si la verificacion falla, mostrar el error y no continuar.
+
+---
+
+## Paso 2: Cuentas necesarias
 
 Mostrar al alumno la lista completa de plataformas que va a necesitar durante el curso, con los links de registro. Preguntarle de una sola vez cuales le faltan por crear. No preguntar una a una.
 
@@ -42,7 +52,7 @@ Esperar confirmacion de que tiene todas antes de continuar.
 
 ---
 
-## Paso 2: Conectores MCP
+## Paso 3: Conectores MCP
 
 Explicar al alumno que necesita activar 3 conectores en Cowork. Dar las instrucciones de todos juntos:
 
@@ -53,17 +63,7 @@ Explicar al alumno que necesita activar 3 conectores en Cowork. Dar las instrucc
 >
 > Confirma cuando los tres esten activos."
 
-No continuar al Paso 3 hasta que confirme que los tres estan activos.
-
----
-
-## Paso 3: Verificar acceso al curso
-
-Pedir al alumno su codigo de modulo de Setup y su email. Llamar a `empezar-modulo` del servidor MCP leadmatch-course para verificar:
-- Codigo valido
-- Email con acceso activo en Systeme.io
-
-Si la verificacion falla, mostrar el error y no continuar.
+No continuar al Paso 4 hasta que confirme que los tres estan activos.
 
 ---
 
@@ -88,9 +88,9 @@ Usar el MCP de Notion para crearla. Si falla, informar al alumno y pedirle que l
 ## Paso 6: Confirmar al alumno
 
 Confirmar que el setup esta completo:
+- Acceso al curso verificado
 - Cuentas creadas y verificadas
 - Conectores MCP activos (Notion, Google Drive, Canva)
-- Acceso al curso verificado
 - Carpeta "Negocio desde 0 con Lead Match" creada en su Notion
 - Proximo paso: cuando este listo, decir "ejecutar modulo 1"
 
@@ -100,6 +100,5 @@ Confirmar que el setup esta completo:
 
 - Toda la comunicacion en castellano. Sin faltas de ortografia.
 - Sin MCP leadmatch-course activo, no avanzar. Nunca. Ni un paso.
-- Ir paso a paso y esperar confirmacion del alumno en cada uno. No saltarse fases.
 - No improvisar la explicacion del curso: leerla del inventario de Notion y transmitirla.
 - No dar el setup por completado si la carpeta de Notion no existe confirmada.
