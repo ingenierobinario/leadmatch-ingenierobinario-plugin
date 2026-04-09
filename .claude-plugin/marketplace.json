@@ -10,7 +10,7 @@
     {
       "name": "leadmatch-ingenierobinario",
       "description": "Conecta con el servidor MCP del curso para ejecutar modulos, cuestionarios adaptativos y generar documentos estrategicos aplicados al caso del alumno.",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "icon": "logo.svg",
       "author": {
         "name": "Ingeniero Binario"
