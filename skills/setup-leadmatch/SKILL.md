@@ -110,4 +110,4 @@ Confirmar que el setup esta completo:
 - No improvisar la explicacion del curso: leerla del inventario de Notion y transmitirla.
 - No dar el setup por completado si la carpeta de Notion no existe confirmada.
 - **Preguntas simples con AskUserQuestion**: para pedir codigo, email, confirmaciones y cualquier pregunta con opciones, usar SIEMPRE `AskUserQuestion`. NUNCA usar la UI del MCP para esto. La interfaz interactiva del MCP se reserva SOLO para los cuestionarios de los modulos con multiples preguntas seguidas.
-- **Excepcion**: cuando se muestren enlaces que el alumno debe clicar (ej: links de registro de plataformas), mostrarlos directamente en el chat como texto con links, NO con AskUserQuestion.
+- **Excepcion**: cuando se muestren enlaces clicables, instrucciones para configurar conectores MCP, o cualquier paso que requiera que el alumno navegue fuera del chat, mostrar directamente en el chat como texto. NO usar AskUserQuestion para esto.
