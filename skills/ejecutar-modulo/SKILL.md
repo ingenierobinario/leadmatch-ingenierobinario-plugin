@@ -107,9 +107,14 @@ Flujo:
 1. Basandote en las guias y fichas del modulo que acabas de leer de Notion, genera las preguntas necesarias para recoger la informacion del alumno. Cada pregunta debe tener:
    - `id`: identificador unico (ej: "q1", "q2")
    - `text`: el texto de la pregunta
-   - `type`: "pills" (opciones), "text" (respuesta libre) o "file" (subir archivo)
+   - `type`: "pills" (opciones clicables) o "text" (respuesta libre)
    - `category`: la categoria tematica (ej: "Negocio", "Producto", "Cliente")
-   - `options`: array de opciones (solo para type "pills")
+   - `options`: array de opciones (OBLIGATORIO para type "pills")
+
+   **IMPORTANTE sobre el tipo de preguntas**:
+   - Usar `"type": "pills"` con opciones SIEMPRE que sea posible. Las preguntas con opciones son mas rapidas y agiles para el alumno. Incluir siempre una opcion "Otro" para que pueda matizar en el campo de detalle.
+   - Usar `"type": "text"` SOLO cuando la pregunta requiera una respuesta completamente libre que no se pueda categorizar en opciones (ej: "Describe tu idea de negocio").
+   - La mayoria de preguntas deben ser tipo "pills". Minimo el 70% del cuestionario.
 
 2. Llamar a `run-questionnaire` del servidor MCP leadmatch-course con:
    - `studentName`: nombre del alumno
