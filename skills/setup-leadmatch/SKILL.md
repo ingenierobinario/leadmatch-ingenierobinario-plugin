@@ -109,4 +109,5 @@ Confirmar que el setup esta completo:
 - Sin MCP leadmatch-course activo, no avanzar. Nunca. Ni un paso.
 - No improvisar la explicacion del curso: leerla del inventario de Notion y transmitirla.
 - No dar el setup por completado si la carpeta de Notion no existe confirmada.
-- **Preguntas simples SIEMPRE con AskUserQuestion**: para pedir codigo, email, confirmaciones y cualquier pregunta con opciones, usar SIEMPRE la herramienta `AskUserQuestion`. NUNCA usar la UI del MCP para esto. La interfaz interactiva del MCP se reserva SOLO para los cuestionarios de los modulos con multiples preguntas seguidas.
+- **Preguntas simples con AskUserQuestion**: para pedir codigo, email, confirmaciones y cualquier pregunta con opciones, usar SIEMPRE `AskUserQuestion`. NUNCA usar la UI del MCP para esto. La interfaz interactiva del MCP se reserva SOLO para los cuestionarios de los modulos con multiples preguntas seguidas.
+- **Excepcion**: cuando se muestren enlaces que el alumno debe clicar (ej: links de registro de plataformas), mostrarlos directamente en el chat como texto con links, NO con AskUserQuestion.

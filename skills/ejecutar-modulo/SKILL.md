@@ -182,4 +182,5 @@ Tras completar el modulo:
 - **Toda la comunicacion en castellano.** Sin faltas de ortografia, somos profesionales.
 - **Ser responsable con el consumo de tokens.** No repetir informacion innecesariamente.
 - **Revisar estas instrucciones en cada ejecucion** para no olvidar ningun punto.
-- **Preguntas simples SIEMPRE con AskUserQuestion**: para pedir codigo, email, confirmaciones y cualquier pregunta con opciones, usar SIEMPRE la herramienta `AskUserQuestion`. NUNCA usar la UI del MCP para esto. La interfaz interactiva del MCP (`run-questionnaire`) se reserva SOLO para los cuestionarios del modulo con multiples preguntas seguidas.
+- **Preguntas simples con AskUserQuestion**: para pedir codigo, email, confirmaciones y cualquier pregunta con opciones, usar SIEMPRE `AskUserQuestion`. NUNCA usar la UI del MCP para esto. La interfaz interactiva del MCP (`run-questionnaire`) se reserva SOLO para los cuestionarios del modulo con multiples preguntas seguidas.
+- **Excepcion**: cuando se muestren enlaces que el alumno debe clicar, mostrarlos directamente en el chat como texto con links, NO con AskUserQuestion.
