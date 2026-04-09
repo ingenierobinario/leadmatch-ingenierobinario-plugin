@@ -68,7 +68,7 @@ El curso tiene 6 modulos (M1 a M6). M0 es el setup inicial.
 
 **OBLIGATORIO**: Este paso se ejecuta SIEMPRE primero, en TODOS los modulos, sin excepcion. Antes de hacer cualquier otra cosa.
 
-Pedir al alumno su codigo de modulo y email. Llamar a la herramienta `empezar-modulo` del servidor MCP leadmatch-course. El servidor:
+Pedir al alumno su codigo de modulo y email directamente en el chat, como texto normal. No usar popups, selectores ni la interfaz del MCP para preguntas simples. Una vez tenga ambos datos, llamar a la herramienta `empezar-modulo` del servidor MCP leadmatch-course. El servidor:
 - Valida el codigo del modulo
 - Verifica el email en Systeme.io (debe tener acceso activo)
 - Lee las instrucciones del modulo desde Notion
@@ -182,3 +182,4 @@ Tras completar el modulo:
 - **Toda la comunicacion en castellano.** Sin faltas de ortografia, somos profesionales.
 - **Ser responsable con el consumo de tokens.** No repetir informacion innecesariamente.
 - **Revisar estas instrucciones en cada ejecucion** para no olvidar ningun punto.
+- **Preguntas simples en el chat**: codigo, email, confirmaciones y preguntas de si/no se hacen como texto normal en la conversacion. NUNCA usar popups, selectores ni la UI del MCP para esto. La interfaz interactiva del MCP (`run-questionnaire`) se reserva SOLO para los cuestionarios del modulo con multiples preguntas.

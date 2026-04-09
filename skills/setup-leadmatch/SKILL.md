@@ -31,7 +31,9 @@ No continuar ni un paso mas sin este conector activo. No improvisar alternativas
 
 ## Paso 1: Verificar acceso al curso
 
-Este es SIEMPRE el primer paso. Pedir al alumno su codigo de modulo de Setup y su email. Llamar a `empezar-modulo` del servidor MCP leadmatch-course para verificar:
+Este es SIEMPRE el primer paso. Pedir al alumno su codigo de modulo y su email directamente en el chat, como texto normal. No usar popups, selectores ni la interfaz del MCP para esto. Son preguntas simples que se hacen en la conversacion.
+
+Una vez tenga ambos datos, llamar a `empezar-modulo` del servidor MCP leadmatch-course para verificar:
 - Codigo valido
 - Email con acceso activo en Systeme.io
 
@@ -107,3 +109,4 @@ Confirmar que el setup esta completo:
 - Sin MCP leadmatch-course activo, no avanzar. Nunca. Ni un paso.
 - No improvisar la explicacion del curso: leerla del inventario de Notion y transmitirla.
 - No dar el setup por completado si la carpeta de Notion no existe confirmada.
+- **Preguntas simples en el chat**: codigo, email, confirmaciones y preguntas de si/no se hacen como texto normal en la conversacion. NUNCA usar popups, selectores ni la UI del MCP para esto. La interfaz interactiva del MCP se reserva SOLO para los cuestionarios de los modulos con multiples preguntas.
