@@ -99,16 +99,28 @@ Las guias son el conocimiento experto. Contienen:
 
 ### Paso 4: Recoger la informacion del alumno
 
-**OBLIGATORIO**: Nunca preguntes al alumno directamente en el chat. Siempre usa las herramientas del MCP para el cuestionario.
+**OBLIGATORIO**: Nunca preguntes al alumno directamente en el chat. Siempre usa el MCP para mostrar las preguntas con la interfaz interactiva.
 
-Llamar INMEDIATAMENTE a `start-phase-questionnaire` del servidor MCP leadmatch-course con:
-- `email`: el email verificado del alumno
-- `moduleNumber`: el numero del modulo
-- `phaseNumber`: 1 (primera fase)
+Flujo:
 
-Esta herramienta lanza la interfaz interactiva de preguntas. No hagas las preguntas tu mismo en texto. No improvises preguntas. No pidas informacion al alumno antes de llamar a `start-phase-questionnaire`.
+1. Basandote en las guias y fichas del modulo que acabas de leer de Notion, genera las preguntas necesarias para recoger la informacion del alumno. Cada pregunta debe tener:
+   - `id`: identificador unico (ej: "q1", "q2")
+   - `text`: el texto de la pregunta
+   - `type`: "pills" (opciones), "text" (respuesta libre) o "file" (subir archivo)
+   - `category`: la categoria tematica (ej: "Negocio", "Producto", "Cliente")
+   - `options`: array de opciones (solo para type "pills")
 
-Cuando el alumno responda cada pregunta, llamar a `answer-question` con la respuesta. Repetir hasta que el cuestionario este completo (`isComplete: true`).
+2. Llamar a `run-questionnaire` del servidor MCP leadmatch-course con:
+   - `studentName`: nombre del alumno
+   - `questions`: JSON stringificado del array de preguntas generadas
+
+3. Decir al alumno: "Completa el cuestionario en el panel interactivo. Cuando termines, dime **listo**."
+
+4. Cuando el alumno diga "listo", llamar a `get-answers` del servidor MCP con el `sessionId` que devolvio `run-questionnaire`. Esto devuelve todas las respuestas del alumno.
+
+5. Si `get-answers` dice que el cuestionario no esta completo, indicar al alumno que termine las preguntas pendientes.
+
+**Importante**: Las preguntas deben ser especificas para el modulo, basadas en las guias de Notion. No generes preguntas genericas. Adapta las opciones al contexto del modulo.
 
 Para M4 en adelante, tambien recuperar los outputs de modulos anteriores desde la carpeta "Negocio desde 0 con Lead Match" del Notion del alumno.
 
