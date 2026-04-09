@@ -109,4 +109,4 @@ Confirmar que el setup esta completo:
 - Sin MCP leadmatch-course activo, no avanzar. Nunca. Ni un paso.
 - No improvisar la explicacion del curso: leerla del inventario de Notion y transmitirla.
 - No dar el setup por completado si la carpeta de Notion no existe confirmada.
-- **Preguntas simples en el chat**: codigo, email, confirmaciones y preguntas de si/no se hacen como texto normal en la conversacion. NUNCA usar popups, selectores ni la UI del MCP para esto. La interfaz interactiva del MCP se reserva SOLO para los cuestionarios de los modulos con multiples preguntas.
+- **Preguntas simples en el chat**: codigo, email, confirmaciones y preguntas con opciones se hacen directamente en la conversacion usando el selector nativo de Claude (opciones numeradas 1, 2, 3...). NUNCA usar la UI del MCP para esto. La interfaz interactiva del MCP se reserva SOLO para los cuestionarios de los modulos con multiples preguntas seguidas.
