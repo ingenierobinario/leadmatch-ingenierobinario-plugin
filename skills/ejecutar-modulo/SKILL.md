@@ -64,15 +64,16 @@ El curso tiene 6 modulos (M1 a M6). M0 es el setup inicial.
 
 ## Flujo de ejecucion
 
-### Paso 1: Verificar acceso
+### Paso 1: Verificar acceso — SIEMPRE EL PRIMER PASO
+
+**OBLIGATORIO**: Este paso se ejecuta SIEMPRE primero, en TODOS los modulos, sin excepcion. Antes de hacer cualquier otra cosa.
 
 Pedir al alumno su codigo de modulo y email. Llamar a la herramienta `empezar-modulo` del servidor MCP leadmatch-course. El servidor:
 - Valida el codigo del modulo
-- Verifica el email en Systeme.io
+- Verifica el email en Systeme.io (debe tener acceso activo)
 - Lee las instrucciones del modulo desde Notion
-- Devuelve los datos del modulo con todas sus fases
 
-Si la verificacion falla, mostrar el mensaje de error al alumno y no continuar.
+Si la verificacion falla, mostrar el mensaje de error al alumno y NO continuar bajo ningun concepto.
 
 ### Paso 2: Leer el inventario del modulo
 
